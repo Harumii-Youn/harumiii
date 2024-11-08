@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Survey!</title>
+    <link rel="stylesheet" href="formybf.css">
+</head>
+<body>
+    <div class="survey-container">
+        <h1>Love Survey for My BF</h1>
+        <form class="survey-form">
+            <!-- Question 1 -->
+            <div class="question">
+                <label class="bold">1. How much do you love me? ❤️</label>
+                <div class="options">
+                    <label><input type="radio" name="loveAmount" value="A lot"> A lot</label>
+                    <label><input type="radio" name="loveAmount" value="More than anything"> More than anything</label>
+                    <label><input type="radio" name="loveAmount" value="Can't even count"> Can't even count</label>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <label class="bold">2. What’s your favorite thing about us?</label>
+                <div class="options">
+                    <label><input type="radio" name="favThing" value="Our movie time"> Our laughter</label>
+                    <label><input type="radio" name="favThing" value="Our kiss time"> Our adventures</label>
+                    <label><input type="radio" name="favThing" value="Our laughing time"> Our love</label>
+                </div>
+            </div>
+
+            <!-- Question 3 - Open Text -->
+            <div class="question">
+                <label class="bold">3. What would you like us to do more together?</label>
+                <textarea name="futurePlans" rows="4" placeholder="Your answer here..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-button">Submit here</button>
+            <a href="formybf3.html" class="anotherpage">Continue</a>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="formybf.js"></script>
+</body>
+</html>
